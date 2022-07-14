@@ -10,6 +10,7 @@ export XDG_CONFIG_DIRS=/etc/xdg
 alias shutdown='sudo shutdown now'
 alias restart='sudo restart now'
 
+alias vim=nvim
 alias config="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
 
 alias ls='exa -l --color=always --group-directories-first'        #
