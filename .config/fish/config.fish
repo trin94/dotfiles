@@ -1,4 +1,3 @@
-### Export environment variables
 export XDG_CONFIG_HOME=$HOME/.config
 export XDG_CACHE_HOME=$HOME/.cache
 export XDG_DATA_HOME=$HOME/.local/share
@@ -6,11 +5,8 @@ export XDG_DATA_DIRS=$HOME/.local/share:/var/lib/flatpak/exports/share:/home/eli
 export XDG_CONFIG_DIRS=/etc/xdg
 
 
-### Setup alias
 alias shutdown='sudo shutdown now'
 alias restart='sudo restart now'
-
-alias vim=nvim
 alias config="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
 
 alias ls='exa -l --color=always --group-directories-first'        #
@@ -19,9 +15,10 @@ alias lt='exa -aT --color=always --group-directories-first'       # tree listing
 alias l.='exa -ld .?* --color=always --group-directories-first'   # only hidden files and dirs
 alias ldot=l.
 
+alias vim=nvim
 alias qmltestrunner=qmltestrunner-qt6
 
-set fish_greeting
+
 set -g fish_prompt_pwd_dir_length 0
 
 starship init fish | source
