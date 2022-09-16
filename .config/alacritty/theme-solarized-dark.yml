@@ -1,7 +1,6 @@
 # https://github.com/eendroroy/alacritty-theme
 # https://github.com/eendroroy/alacritty-theme/blob/master/themes/solarized_dark.yaml
 
-# Colors (Solarized Dark)
 colors:
   primary:
     background: '0x002b36'
