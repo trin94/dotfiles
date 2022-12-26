@@ -22,5 +22,7 @@ alias qmltestrunner=qmltestrunner-qt6
 
 
 set -g fish_prompt_pwd_dir_length 0
+fish_add_path $HOME/.local/bin
+fish_add_path $HOME/.cargo/bin
 
 starship init fish | source
