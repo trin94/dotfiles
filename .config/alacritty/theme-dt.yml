@@ -4,10 +4,6 @@ colors:
     background: '0x282c34'
     foreground: '0xbbc2cf'
 
-  selection:
-    text: '0xbbc2cf'
-    background: '0x282c34'
-
   normal:
     black: '0x1c1f24'
     red: '0xff6c6b'
