@@ -16,7 +16,7 @@ alias lt='exa -aT --color=always --group-directories-first'       # tree listing
 alias l.='exa -ld .?* --color=always --group-directories-first'   # only hidden files and dirs
 alias ldot=l.
 
-alias dnf='dnf5'
+alias dnf='dnf -C'
 alias vim=nvim
 alias qmltestrunner=qmltestrunner-qt6
 
