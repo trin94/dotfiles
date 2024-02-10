@@ -6,9 +6,6 @@ style = { blinking = "On", shape = "Beam" }
 [font]
 size = 15.0
 normal = { family = "Intel One Mono", style = "Bold" }
-bold = { family = "Intel One Mono", style = "Bold" }
-bold_italic = { family = "Intel One Mono", style = "Bold Italic" }
-italic = { family = "Intel One Mono", style = "Italic" }
 
 [selection]
 save_to_clipboard = true
