@@ -7,6 +7,7 @@ call plug#begin('~/.vim/plugged')
  Plug 'honza/vim-snippets'
  Plug 'scrooloose/nerdtree'
  Plug 'mhinz/vim-startify'
+ Plug 'NoahTheDuke/vim-just'
  Plug 'neoclide/coc.nvim', {'branch': 'release'}
  Plug 'junegunn/vim-easy-align'
  Plug 'itchyny/lightline.vim'
