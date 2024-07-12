@@ -14,5 +14,6 @@ set --global fish_prompt_pwd_dir_length 0
 
 fish_add_path $HOME/.local/bin
 fish_add_path $HOME/.cargo/bin
+fish_add_path $HOME/bin/flutter_linux_3.19.6-stable/flutter/bin
 
 starship init fish | source
