@@ -6,6 +6,9 @@ alias config="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
 
 alias dnf='dnf -C'
 alias vim=nvim
+alias k='kubectl'
+alias kctx='kubectx'
+alias kns='kubens'
 alias qmltestrunner=qmltestrunner-qt6
 
 set --export EDITOR nvim
