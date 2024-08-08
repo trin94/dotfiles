@@ -9,6 +9,7 @@ alias vim=nvim
 alias k='kubectl'
 alias kctx='kubectx'
 alias kns='kubens'
+alias env-dbt='env_dbt'
 alias qmltestrunner=qmltestrunner-qt6
 
 set --export EDITOR nvim
